@@ -1,0 +1,9 @@
+name: ChatMerGe
+version: '${project.version}'
+main: reed.chatmerge.chatmerge.ChatMerGe
+api-version: 1.17
+commands:
+  cmg:
+    description: 'Main directives'
+    permission: "ChatMerGe.ct"
+    permission-message: "Reconnect server permission"

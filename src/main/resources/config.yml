@@ -1,0 +1,28 @@
+# 插件统一前缀
+prefix: '§f[§aChatMerGe§f]'
+
+# 暂无需要
+key: ''
+
+# 远程配置
+Server:
+  # IP
+  IP: '127.0.0.1'
+  # 端口
+  port: 8080
+
+# 自定义发送信息配置
+Send:
+  #向QQ内发送的消息配置
+  QQ: '[ChatMerGe][%player%] >>> %Chat%'
+  QQJoin: 'player Join Server!'
+  QQQuit: 'player Quit Server!'
+  #服务器接收到的消息配置
+  Server:
+    name: '[Server]'
+
+
+# 关于汉化内容
+message:
+  connect: '与服务器建立连接失败...请等待5秒后自动重新连接 -> 当前连接次数:-size-'
+  error: '建立连接次数过多,已不再尝试重新连接...'
